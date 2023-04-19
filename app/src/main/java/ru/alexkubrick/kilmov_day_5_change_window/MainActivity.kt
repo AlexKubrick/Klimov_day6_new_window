@@ -1,6 +1,5 @@
 package ru.alexkubrick.kilmov_day_5_change_window
 
-import AboutActivity
 import android.annotation.SuppressLint
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
@@ -14,11 +13,10 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        val button_about_activity: Button = findViewById(R.id.button_about)
-        button_about_activity.setOnClickListener {
+        val buttonAboutActivity: Button = findViewById(R.id.button_about)
+        buttonAboutActivity.setOnClickListener {
             val intent = Intent(this@MainActivity, AboutActivity::class.java)
             startActivity(intent)
-
         }
     }
 }
