@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Kilmov_day_5_change_window</string>
+    <string name="about_title">О программе</string>
+    <string name="about_text">
+        У лукоморья дуб зеленый;\\n
+        Златая цепь на дубе том:\\n
+        И днём и ночью <b>кот учёный</b>\\n
+        Всё ходит по цепи кругом;\\n
+        Идет <b>направо</b> - песнь заводит,\\n
+        <b>Налево</b> - сказку говорит.</string>
+</resources>
